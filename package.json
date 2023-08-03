@@ -1,0 +1,10 @@
+-- Insert departments
+INSERT INTO department VALUES (1, 'Sales'), (2, 'Marketing');
+
+-- Insert roles
+INSERT INTO role VALUES (1, 'Sales Manager', 50000, 1), (2, 'Marketing Coordinator', 35000, 2);
+
+-- Insert employees
+INSERT INTO employee VALUES (1, 'John', 'Smith', 1, NULL), (2, 'Jane', 'Doe', 2, 1);
+
+--code assist from stack overflow and chatgpt; not sure if accurate 
